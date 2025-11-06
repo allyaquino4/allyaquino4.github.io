@@ -7,16 +7,25 @@
   <title>Ally's Profile</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <style>
+    html,
+    body {
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
 </head>
 
 <body style="background: linear-gradient(to bottom, #c66594, #f5eeee);
              background-image: repeating-linear-gradient(135deg, #f9c5d1 0px, #f9c5d1 2px, #ffffff 2px, #ffffff 20px);
-             font-family: 'Poppins', sans-serif; min-height: 100vh;">
+             font-family: 'Poppins', sans-serif;">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg py-3 shadow-sm"
-       style="background: linear-gradient(135deg, #ffb6c1 0%, #ffcce0 100%);
+  <nav class="navbar navbar-expand-lg py-3 shadow-sm" style="background: linear-gradient(135deg, #ffb6c1 0%, #ffcce0 100%);
               border-radius: 15px; margin: 10px 20px;">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#" style="color: #ae096a; text-shadow: 1px 1px 3px rgba(0,0,0,0.2);">
@@ -30,11 +39,10 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item mx-2">
-            <a class="nav-link fw-semibold px-3 py-2 rounded-3"
-               href="activities.html"
-               style="color: #ae096a; transition: 0.3s;"
-               onmouseover="this.style.backgroundColor='rgba(255,255,255,0.3)'; this.style.color='#fff'; this.style.transform='scale(1.05)'"
-               onmouseout="this.style.backgroundColor=''; this.style.color='#ae096a'; this.style.transform='scale(1)'">
+            <a class="nav-link fw-semibold px-3 py-2 rounded-3" href="activities.html"
+              style="color: #ae096a; transition: 0.3s;"
+              onmouseover="this.style.backgroundColor='rgba(255,255,255,0.3)'; this.style.color='#fff'; this.style.transform='scale(1.05)'"
+              onmouseout="this.style.backgroundColor=''; this.style.color='#ae096a'; this.style.transform='scale(1)'">
               ACTIVITIES
             </a>
           </li>
@@ -46,15 +54,14 @@
   <!-- Profile Section -->
   <div class="container text-center mt-5">
     <div class="d-flex justify-content-center mb-3">
-      <div class="rounded-circle shadow"
-           style="width:180px; height:180px; overflow:hidden; border:5px solid #ffb6c1;">
+      <div class="rounded-circle shadow" style="width:180px; height:180px; overflow:hidden; border:5px solid #ffb6c1;">
         <img src="assets/W1.jpg" alt="Profile Photo" class="w-100 h-100" style="object-fit:cover;">
       </div>
     </div>
 
     <!-- Name -->
     <div class="d-inline-block px-4 py-2 shadow-sm mt-3"
-         style="border:2px solid #ff69b4; border-radius:10px; background-color:#fff0f5;">
+      style="border:2px solid #ff69b4; border-radius:10px; background-color:#fff0f5;">
       <h2 class="mb-0 fw-bold" style="color:#ae096a; font-family:'Alex Brush', cursive; font-size:2.2rem;">
         Christine Allysa T. Aquino
       </h2>
@@ -62,7 +69,7 @@
 
     <!-- About -->
     <div class="mx-auto mt-4 p-4 shadow-sm"
-         style="background-color:#f7d9ec; border-radius:15px; max-width:700px; color:#444;">
+      style="background-color:#f7d9ec; border-radius:15px; max-width:700px; color:#444;">
       <p class="mb-0" style="font-size:1rem; line-height:1.6;">
         Hi there! I’m Christine Allysa T. Aquino — a 3rd-year IT student at the Polytechnic University of the
         Philippines - Sto. Tomas Campus. Currently busy enjoying life, collecting memories, and pretending to have it
